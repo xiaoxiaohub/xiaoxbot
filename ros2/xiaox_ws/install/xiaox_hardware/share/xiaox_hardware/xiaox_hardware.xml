@@ -1,5 +1,0 @@
-<library path="xiaox_hardware">
-  <class name="xiaox_hardware/XiaoxHardware" type="xiaox_hardware::XiaoxHardware" base_class_type="hardware_interface::SystemInterface">
-    <description>ros2_control hardware interface for Xiaox robot arm</description>
-  </class>
-</library>

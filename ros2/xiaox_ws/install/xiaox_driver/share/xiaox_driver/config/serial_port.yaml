@@ -1,7 +1,0 @@
-serial_port: /dev/ttyACM0
-baud_rate: 115200
-command_mode: 2
-command_speed: 180.0
-reply_timeout_ms: 200
-init_retries: 25
-retry_sleep_ms: 200

@@ -1,8 +1,0 @@
-{
-  "package_name": "xiaox_interfaces",
-  "non_idl_tuples": [
-    "/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_interfaces:srv/InitDevice.srv",
-    "/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_interfaces:srv/ReadJoints.srv",
-    "/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_interfaces:srv/WriteJoints.srv"
-  ]
-}

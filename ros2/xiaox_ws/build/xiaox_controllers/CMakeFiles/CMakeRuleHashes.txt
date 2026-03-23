@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-7254bf1fb75c711e8453ca964daed948 CMakeFiles/xiaox_controllers_uninstall

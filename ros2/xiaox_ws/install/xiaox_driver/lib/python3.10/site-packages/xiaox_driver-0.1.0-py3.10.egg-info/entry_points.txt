@@ -1,3 +1,0 @@
-[console_scripts]
-driver_node = xiaox_driver.driver_node:main
-
