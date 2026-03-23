@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from xiaox_interfaces/srv/WriteJoints.srv
+// generated code does not contain a copyright notice
+
+
+module xiaox_interfaces {
+  module srv {
+    struct WriteJoints_Request {
+      sequence<double> positions;
+
+      sequence<double> velocities;
+    };
+    struct WriteJoints_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

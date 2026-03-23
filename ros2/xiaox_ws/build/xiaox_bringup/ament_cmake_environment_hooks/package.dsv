@@ -1,0 +1,4 @@
+source;share/xiaox_bringup/local_setup.bash
+source;share/xiaox_bringup/local_setup.dsv
+source;share/xiaox_bringup/local_setup.sh
+source;share/xiaox_bringup/local_setup.zsh

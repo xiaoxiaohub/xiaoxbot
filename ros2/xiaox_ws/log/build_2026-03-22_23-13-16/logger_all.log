@@ -1,0 +1,509 @@
+[0.048s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.048s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79a23a290220>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79a23a253700>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79a23a253700>>, mixin_verb=('build',))
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.121s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_bringup) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_bringup) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_bringup) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_bringup) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_bringup) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_bringup) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_bringup) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_bringup) by extension 'ros'
+[0.128s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xiaox_bringup' with type 'ros.ament_cmake' and name 'xiaox_bringup'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_controllers) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_controllers) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_controllers) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_controllers) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_controllers) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_controllers) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_controllers) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_controllers) by extension 'ros'
+[0.129s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xiaox_controllers' with type 'ros.ament_cmake' and name 'xiaox_controllers'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_driver) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_driver) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_driver) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_driver) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_driver) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_driver) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_driver) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_driver) by extension 'ros'
+[0.129s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xiaox_driver' with type 'ros.ament_python' and name 'xiaox_driver'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_hardware) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_hardware) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_hardware) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_hardware) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_hardware) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_hardware) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_hardware) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_hardware) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xiaox_hardware' with type 'ros.ament_cmake' and name 'xiaox_hardware'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_interfaces) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_interfaces) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_interfaces) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_interfaces) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_interfaces) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_interfaces) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_interfaces) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaox_interfaces) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xiaox_interfaces' with type 'ros.ament_cmake' and name 'xiaox_interfaces'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_description) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_description) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_description) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_description) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_description) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_description) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_description) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_description) by extension 'ros'
+[0.131s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xiaoxbot_description' with type 'ros.ament_python' and name 'xiaoxbot_description'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_moveit_config) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_moveit_config) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_moveit_config) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_moveit_config) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_moveit_config) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_moveit_config) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_moveit_config) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaoxbot_moveit_config) by extension 'ros'
+[0.132s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xiaoxbot_moveit_config' with type 'ros.ament_cmake' and name 'xiaoxbot_moveit_config'
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.146s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install
+[0.147s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 442 installed packages in /opt/ros/humble
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'xiaox_controllers' build argument 'cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'xiaox_controllers' build argument 'cmake_target' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'xiaox_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'xiaox_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'xiaox_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'xiaox_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'xiaox_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'xiaox_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'xiaox_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.169s] DEBUG:colcon.colcon_core.verb:Building package 'xiaox_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers', 'merge_install': False, 'path': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.170s] DEBUG:colcon.colcon_core.verb:Building package 'xiaox_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces', 'merge_install': False, 'path': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_description' build argument 'cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_description' build argument 'cmake_target' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.170s] DEBUG:colcon.colcon_core.verb:Building package 'xiaoxbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaoxbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description', 'merge_install': False, 'path': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaoxbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_driver' build argument 'cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_driver' build argument 'cmake_target' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.170s] DEBUG:colcon.colcon_core.verb:Building package 'xiaox_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver', 'merge_install': False, 'path': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_driver', 'symlink_install': False, 'test_result_base': None}
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_hardware' build argument 'cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_hardware' build argument 'cmake_target' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaox_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.170s] DEBUG:colcon.colcon_core.verb:Building package 'xiaox_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware', 'merge_install': False, 'path': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'xiaoxbot_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.171s] DEBUG:colcon.colcon_core.verb:Building package 'xiaoxbot_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaoxbot_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config', 'merge_install': False, 'path': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaoxbot_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'xiaox_bringup' build argument 'cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'xiaox_bringup' build argument 'cmake_target' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'xiaox_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'xiaox_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'xiaox_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'xiaox_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'xiaox_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'xiaox_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'xiaox_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.171s] DEBUG:colcon.colcon_core.verb:Building package 'xiaox_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup', 'merge_install': False, 'path': '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.171s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.171s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.172s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_interfaces' with build type 'ament_cmake'
+[0.172s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_interfaces'
+[0.172s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.172s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.174s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_controllers' with build type 'ament_cmake'
+[0.174s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_controllers'
+[0.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.176s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaoxbot_description' with build type 'ament_python'
+[0.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaoxbot_description', 'ament_prefix_path')
+[0.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/share/xiaoxbot_description/hook/ament_prefix_path.ps1'
+[0.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/share/xiaoxbot_description/hook/ament_prefix_path.dsv'
+[0.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/share/xiaoxbot_description/hook/ament_prefix_path.sh'
+[0.177s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.177s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_interfaces -- -j20 -l20
+[0.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers -- -j20 -l20
+[0.307s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaoxbot_description'
+[0.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers -- -j20 -l20
+[0.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers
+[0.316s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xiaox_controllers)
+[0.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers
+[0.317s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers' for CMake module files
+[0.317s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers' for CMake config files
+[0.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaox_controllers', 'cmake_prefix_path')
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/xiaox_controllers/hook/cmake_prefix_path.ps1'
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/xiaox_controllers/hook/cmake_prefix_path.dsv'
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/xiaox_controllers/hook/cmake_prefix_path.sh'
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/bin'
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/lib/pkgconfig/xiaox_controllers.pc'
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/lib/python3.10/site-packages'
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/bin'
+[0.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/xiaox_controllers/package.ps1'
+[0.319s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/xiaox_controllers/package.dsv'
+[0.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/xiaox_controllers/package.sh'
+[0.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/xiaox_controllers/package.bash'
+[0.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/xiaox_controllers/package.zsh'
+[0.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/colcon-core/packages/xiaox_controllers)
+[0.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xiaox_controllers)
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers' for CMake module files
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers' for CMake config files
+[0.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaox_controllers', 'cmake_prefix_path')
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/xiaox_controllers/hook/cmake_prefix_path.ps1'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/xiaox_controllers/hook/cmake_prefix_path.dsv'
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/xiaox_controllers/hook/cmake_prefix_path.sh'
+[0.321s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/bin'
+[0.321s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/lib/pkgconfig/xiaox_controllers.pc'
+[0.321s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/lib/python3.10/site-packages'
+[0.321s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/bin'
+[0.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/xiaox_controllers/package.ps1'
+[0.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/xiaox_controllers/package.dsv'
+[0.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/xiaox_controllers/package.sh'
+[0.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/xiaox_controllers/package.bash'
+[0.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/xiaox_controllers/package.zsh'
+[0.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers/share/colcon-core/packages/xiaox_controllers)
+[0.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_interfaces -- -j20 -l20
+[0.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_interfaces
+[0.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xiaox_interfaces)
+[0.353s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces' for CMake module files
+[0.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_interfaces
+[0.354s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces' for CMake config files
+[0.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaox_interfaces', 'cmake_prefix_path')
+[0.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/hook/cmake_prefix_path.ps1'
+[0.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/hook/cmake_prefix_path.dsv'
+[0.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/hook/cmake_prefix_path.sh'
+[0.355s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib'
+[0.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaox_interfaces', 'ld_library_path_lib')
+[0.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/hook/ld_library_path_lib.ps1'
+[0.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/hook/ld_library_path_lib.dsv'
+[0.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/hook/ld_library_path_lib.sh'
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/bin'
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib/pkgconfig/xiaox_interfaces.pc'
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib/python3.10/site-packages'
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/bin'
+[0.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/package.ps1'
+[0.356s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/package.dsv'
+[0.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/package.sh'
+[0.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/package.bash'
+[0.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/package.zsh'
+[0.357s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/colcon-core/packages/xiaox_interfaces)
+[0.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xiaox_interfaces)
+[0.357s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces' for CMake module files
+[0.357s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces' for CMake config files
+[0.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaox_interfaces', 'cmake_prefix_path')
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/hook/cmake_prefix_path.ps1'
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/hook/cmake_prefix_path.dsv'
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/hook/cmake_prefix_path.sh'
+[0.358s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib'
+[0.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaox_interfaces', 'ld_library_path_lib')
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/hook/ld_library_path_lib.ps1'
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/hook/ld_library_path_lib.dsv'
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/hook/ld_library_path_lib.sh'
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/bin'
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib/pkgconfig/xiaox_interfaces.pc'
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib/python3.10/site-packages'
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/bin'
+[0.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/package.ps1'
+[0.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/package.dsv'
+[0.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/package.sh'
+[0.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/package.bash'
+[0.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/package.zsh'
+[0.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/colcon-core/packages/xiaox_interfaces)
+[0.360s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_driver' with build type 'ament_python'
+[0.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaox_driver', 'ament_prefix_path')
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/hook/ament_prefix_path.ps1'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/hook/ament_prefix_path.dsv'
+[0.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/hook/ament_prefix_path.sh'
+[0.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.362s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_hardware' with build type 'ament_cmake'
+[0.362s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_hardware'
+[0.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.480s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_driver'
+[0.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.480s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_hardware': CMAKE_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.5/lib64:/home/jiehuang/.mujoco/mujoco-3.4.0/bin /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_hardware -- -j20 -l20
+[0.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaoxbot_description': PYTHONPATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaoxbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xiaoxbot_description build --build-base /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaoxbot_description/build install --record /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaoxbot_description/install.log --single-version-externally-managed install_data
+[0.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_hardware' returned '0': CMAKE_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.5/lib64:/home/jiehuang/.mujoco/mujoco-3.4.0/bin /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_hardware -- -j20 -l20
+[0.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_hardware': CMAKE_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.5/lib64:/home/jiehuang/.mujoco/mujoco-3.4.0/bin /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_hardware
+[0.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xiaox_hardware)
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware' for CMake module files
+[0.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_hardware' returned '0': CMAKE_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.5/lib64:/home/jiehuang/.mujoco/mujoco-3.4.0/bin /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_hardware
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware' for CMake config files
+[0.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaox_hardware', 'cmake_prefix_path')
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/hook/cmake_prefix_path.ps1'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/hook/cmake_prefix_path.dsv'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/hook/cmake_prefix_path.sh'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/lib'
+[0.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaox_hardware', 'ld_library_path_lib')
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/hook/ld_library_path_lib.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/hook/ld_library_path_lib.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/hook/ld_library_path_lib.sh'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/bin'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/lib/pkgconfig/xiaox_hardware.pc'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/lib/python3.10/site-packages'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/bin'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/package.ps1'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/package.dsv'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/package.sh'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/package.bash'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/package.zsh'
+[0.512s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/colcon-core/packages/xiaox_hardware)
+[0.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xiaox_hardware)
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware' for CMake module files
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware' for CMake config files
+[0.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaox_hardware', 'cmake_prefix_path')
+[0.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/hook/cmake_prefix_path.ps1'
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/hook/cmake_prefix_path.dsv'
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/hook/cmake_prefix_path.sh'
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/lib'
+[0.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaox_hardware', 'ld_library_path_lib')
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/hook/ld_library_path_lib.ps1'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/hook/ld_library_path_lib.dsv'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/hook/ld_library_path_lib.sh'
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/bin'
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/lib/pkgconfig/xiaox_hardware.pc'
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/lib/python3.10/site-packages'
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/bin'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/package.ps1'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/package.dsv'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/package.sh'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/package.bash'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/xiaox_hardware/package.zsh'
+[0.517s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/share/colcon-core/packages/xiaox_hardware)
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description' for CMake module files
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description' for CMake config files
+[0.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaoxbot_description' returned '0': PYTHONPATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaoxbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xiaoxbot_description build --build-base /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaoxbot_description/build install --record /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaoxbot_description/install.log --single-version-externally-managed install_data
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/lib'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/bin'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/lib/pkgconfig/xiaoxbot_description.pc'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/lib/python3.10/site-packages'
+[0.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaoxbot_description', 'pythonpath')
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/share/xiaoxbot_description/hook/pythonpath.ps1'
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/share/xiaoxbot_description/hook/pythonpath.dsv'
+[0.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/share/xiaoxbot_description/hook/pythonpath.sh'
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/bin'
+[0.613s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xiaoxbot_description)
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/share/xiaoxbot_description/package.ps1'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/share/xiaoxbot_description/package.dsv'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/share/xiaoxbot_description/package.sh'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/share/xiaoxbot_description/package.bash'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/share/xiaoxbot_description/package.zsh'
+[0.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/share/colcon-core/packages/xiaoxbot_description)
+[0.614s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaoxbot_moveit_config' with build type 'ament_cmake'
+[0.614s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaoxbot_moveit_config'
+[0.614s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.614s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaoxbot_moveit_config': AMENT_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaoxbot_moveit_config -- -j20 -l20
+[0.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaoxbot_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaoxbot_moveit_config -- -j20 -l20
+[0.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaoxbot_moveit_config': AMENT_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaoxbot_moveit_config
+[0.631s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xiaoxbot_moveit_config)
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config' for CMake module files
+[0.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaoxbot_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaoxbot_moveit_config
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config' for CMake config files
+[0.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaoxbot_moveit_config', 'cmake_prefix_path')
+[0.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/xiaoxbot_moveit_config/hook/cmake_prefix_path.ps1'
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/xiaoxbot_moveit_config/hook/cmake_prefix_path.dsv'
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/xiaoxbot_moveit_config/hook/cmake_prefix_path.sh'
+[0.633s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/bin'
+[0.633s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/lib/pkgconfig/xiaoxbot_moveit_config.pc'
+[0.633s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/lib/python3.10/site-packages'
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/bin'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/xiaoxbot_moveit_config/package.ps1'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/xiaoxbot_moveit_config/package.dsv'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/xiaoxbot_moveit_config/package.sh'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/xiaoxbot_moveit_config/package.bash'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/xiaoxbot_moveit_config/package.zsh'
+[0.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/colcon-core/packages/xiaoxbot_moveit_config)
+[0.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xiaoxbot_moveit_config)
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config' for CMake module files
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config' for CMake config files
+[0.636s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaoxbot_moveit_config', 'cmake_prefix_path')
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/xiaoxbot_moveit_config/hook/cmake_prefix_path.ps1'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/xiaoxbot_moveit_config/hook/cmake_prefix_path.dsv'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/xiaoxbot_moveit_config/hook/cmake_prefix_path.sh'
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/bin'
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/lib/pkgconfig/xiaoxbot_moveit_config.pc'
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/lib/python3.10/site-packages'
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/bin'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/xiaoxbot_moveit_config/package.ps1'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/xiaoxbot_moveit_config/package.dsv'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/xiaoxbot_moveit_config/package.sh'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/xiaoxbot_moveit_config/package.bash'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/xiaoxbot_moveit_config/package.zsh'
+[0.637s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config/share/colcon-core/packages/xiaoxbot_moveit_config)
+[0.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_driver': CMAKE_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers LD_LIBRARY_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.5/lib64:/home/jiehuang/.mujoco/mujoco-3.4.0/bin PYTHONPATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xiaox_driver build --build-base /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_driver/build install --record /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_driver/install.log --single-version-externally-managed install_data
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver' for CMake module files
+[0.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_driver' returned '0': CMAKE_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers LD_LIBRARY_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.5/lib64:/home/jiehuang/.mujoco/mujoco-3.4.0/bin PYTHONPATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xiaox_driver build --build-base /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_driver/build install --record /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_driver/install.log --single-version-externally-managed install_data
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver' for CMake config files
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/bin'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/pkgconfig/xiaox_driver.pc'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages'
+[0.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaox_driver', 'pythonpath')
+[0.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/hook/pythonpath.ps1'
+[0.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/hook/pythonpath.dsv'
+[0.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/hook/pythonpath.sh'
+[0.771s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/bin'
+[0.771s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xiaox_driver)
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/package.ps1'
+[0.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/package.dsv'
+[0.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/package.sh'
+[0.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/package.bash'
+[0.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/package.zsh'
+[0.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/colcon-core/packages/xiaox_driver)
+[0.772s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_bringup' with build type 'ament_cmake'
+[0.772s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_bringup'
+[0.772s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.772s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup': AMENT_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers:/opt/ros/humble CMAKE_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble PYTHONPATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/lib/python3.10/site-packages:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup -- -j20 -l20
+[0.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup' returned '0': AMENT_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers:/opt/ros/humble CMAKE_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble PYTHONPATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/lib/python3.10/site-packages:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup -- -j20 -l20
+[0.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup': AMENT_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers:/opt/ros/humble CMAKE_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble PYTHONPATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/lib/python3.10/site-packages:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup
+[0.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xiaox_bringup)
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup' for CMake module files
+[0.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup' returned '0': AMENT_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers:/opt/ros/humble CMAKE_PREFIX_PATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_hardware:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_controllers:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_moveit_config:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver:/opt/ros/humble PYTHONPATH=/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/lib/python3.10/site-packages:/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup' for CMake config files
+[0.792s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaox_bringup', 'cmake_prefix_path')
+[0.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/xiaox_bringup/hook/cmake_prefix_path.ps1'
+[0.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/xiaox_bringup/hook/cmake_prefix_path.dsv'
+[0.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/xiaox_bringup/hook/cmake_prefix_path.sh'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/lib'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/bin'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/lib/pkgconfig/xiaox_bringup.pc'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/lib/python3.10/site-packages'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/bin'
+[0.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/xiaox_bringup/package.ps1'
+[0.795s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/xiaox_bringup/package.dsv'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/xiaox_bringup/package.sh'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/xiaox_bringup/package.bash'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/xiaox_bringup/package.zsh'
+[0.797s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/colcon-core/packages/xiaox_bringup)
+[0.797s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xiaox_bringup)
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup' for CMake module files
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup' for CMake config files
+[0.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaox_bringup', 'cmake_prefix_path')
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/xiaox_bringup/hook/cmake_prefix_path.ps1'
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/xiaox_bringup/hook/cmake_prefix_path.dsv'
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/xiaox_bringup/hook/cmake_prefix_path.sh'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/lib'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/bin'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/lib/pkgconfig/xiaox_bringup.pc'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/lib/python3.10/site-packages'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/bin'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/xiaox_bringup/package.ps1'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/xiaox_bringup/package.dsv'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/xiaox_bringup/package.sh'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/xiaox_bringup/package.bash'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/xiaox_bringup/package.zsh'
+[0.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_bringup/share/colcon-core/packages/xiaox_bringup)
+[0.803s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.803s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.804s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.804s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.809s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.809s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.809s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.829s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.829s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/local_setup.ps1'
+[0.831s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/_local_setup_util_ps1.py'
+[0.832s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/setup.ps1'
+[0.833s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/local_setup.sh'
+[0.833s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/_local_setup_util_sh.py'
+[0.834s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/setup.sh'
+[0.834s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/local_setup.bash'
+[0.835s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/setup.bash'
+[0.835s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/local_setup.zsh'
+[0.836s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/setup.zsh'

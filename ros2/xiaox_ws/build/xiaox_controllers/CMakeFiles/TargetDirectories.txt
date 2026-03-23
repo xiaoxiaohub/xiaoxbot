@@ -1,0 +1,9 @@
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers/CMakeFiles/uninstall.dir
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers/CMakeFiles/xiaox_controllers_uninstall.dir
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers/CMakeFiles/test.dir
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers/CMakeFiles/edit_cache.dir
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers/CMakeFiles/rebuild_cache.dir
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers/CMakeFiles/list_install_components.dir
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers/CMakeFiles/install.dir
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers/CMakeFiles/install/local.dir
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_controllers/CMakeFiles/install/strip.dir

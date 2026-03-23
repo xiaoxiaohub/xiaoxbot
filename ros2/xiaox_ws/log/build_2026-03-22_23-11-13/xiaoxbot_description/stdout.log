@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/xiaoxbot_description/xiaoxbot_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/xiaoxbot_description/xiaoxbot_description.egg-info/dependency_links.txt
+writing entry points to ../../build/xiaoxbot_description/xiaoxbot_description.egg-info/entry_points.txt
+writing requirements to ../../build/xiaoxbot_description/xiaoxbot_description.egg-info/requires.txt
+writing top-level names to ../../build/xiaoxbot_description/xiaoxbot_description.egg-info/top_level.txt
+reading manifest file '../../build/xiaoxbot_description/xiaoxbot_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/xiaoxbot_description/xiaoxbot_description.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/lib/python3.10/site-packages/xiaoxbot_description-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/xiaoxbot_description/xiaoxbot_description.egg-info to /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaoxbot_description/lib/python3.10/site-packages/xiaoxbot_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaoxbot_description/install.log'

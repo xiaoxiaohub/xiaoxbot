@@ -1,0 +1,1 @@
+ament_cmake_python:controller_manager:launch_ros:robot_state_publisher:ros_gz_sim:rviz2:xiaox_controllers:xiaox_description:xiaox_driver:xiaox_hardware

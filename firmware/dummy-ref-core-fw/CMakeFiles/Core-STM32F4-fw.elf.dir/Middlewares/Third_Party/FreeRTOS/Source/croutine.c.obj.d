@@ -1,0 +1,20 @@
+CMakeFiles/Core-STM32F4-fw.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: \
+ /home/jiehuang/Documents/Custom-Robot/dummy/firmware/dummy-ref-core-fw/Middlewares/Third_Party/FreeRTOS/Source/croutine.c \
+ /home/jiehuang/Documents/Custom-Robot/dummy/firmware/dummy-ref-core-fw/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+ /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
+ /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h \
+ /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/arm-none-eabi/include/stdint.h \
+ /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/arm-none-eabi/include/machine/_default_types.h \
+ /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/arm-none-eabi/include/sys/features.h \
+ /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/arm-none-eabi/include/_newlib_version.h \
+ /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/arm-none-eabi/include/sys/_intsup.h \
+ /opt/st/stm32cubeclt_1.17.0/GNU-tools-for-STM32/arm-none-eabi/include/sys/_stdint.h \
+ /home/jiehuang/Documents/Custom-Robot/dummy/firmware/dummy-ref-core-fw/Core/Inc/FreeRTOSConfig.h \
+ /home/jiehuang/Documents/Custom-Robot/dummy/firmware/dummy-ref-core-fw/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+ /home/jiehuang/Documents/Custom-Robot/dummy/firmware/dummy-ref-core-fw/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+ /home/jiehuang/Documents/Custom-Robot/dummy/firmware/dummy-ref-core-fw/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+ /home/jiehuang/Documents/Custom-Robot/dummy/firmware/dummy-ref-core-fw/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ /home/jiehuang/Documents/Custom-Robot/dummy/firmware/dummy-ref-core-fw/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+ /home/jiehuang/Documents/Custom-Robot/dummy/firmware/dummy-ref-core-fw/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ /home/jiehuang/Documents/Custom-Robot/dummy/firmware/dummy-ref-core-fw/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+ /home/jiehuang/Documents/Custom-Robot/dummy/firmware/dummy-ref-core-fw/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h

@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Ctrl-Step-STM32-fw",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Ctrl-Step-STM32-fw.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ctrl-Step-STM32-fw.elf-Debug-cbed990715903d819b86.json",
+					"name" : "Ctrl-Step-STM32-fw.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jiehuang/Documents/Custom-Robot/dummy/firmware/dummy-42motor-fw",
+		"source" : "/home/jiehuang/Documents/Custom-Robot/dummy/firmware/dummy-42motor-fw"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

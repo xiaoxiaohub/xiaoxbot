@@ -1,0 +1,2 @@
+source;share/xiaox_bringup/environment/ament_prefix_path.sh
+source;share/xiaox_bringup/environment/path.sh

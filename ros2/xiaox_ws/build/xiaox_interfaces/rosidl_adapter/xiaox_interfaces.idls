@@ -1,0 +1,3 @@
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_interfaces/rosidl_adapter/xiaox_interfaces:srv/InitDevice.idl
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_interfaces/rosidl_adapter/xiaox_interfaces:srv/ReadJoints.idl
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_interfaces/rosidl_adapter/xiaox_interfaces:srv/WriteJoints.idl

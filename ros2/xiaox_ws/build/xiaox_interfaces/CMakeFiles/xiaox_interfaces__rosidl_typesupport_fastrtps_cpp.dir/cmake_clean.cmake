@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/xiaox_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xiaox_interfaces/srv/detail/dds_fastrtps/init_device__type_support.cpp.o"
+  "CMakeFiles/xiaox_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xiaox_interfaces/srv/detail/dds_fastrtps/init_device__type_support.cpp.o.d"
+  "CMakeFiles/xiaox_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xiaox_interfaces/srv/detail/dds_fastrtps/read_joints__type_support.cpp.o"
+  "CMakeFiles/xiaox_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xiaox_interfaces/srv/detail/dds_fastrtps/read_joints__type_support.cpp.o.d"
+  "CMakeFiles/xiaox_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xiaox_interfaces/srv/detail/dds_fastrtps/write_joints__type_support.cpp.o"
+  "CMakeFiles/xiaox_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xiaox_interfaces/srv/detail/dds_fastrtps/write_joints__type_support.cpp.o.d"
+  "libxiaox_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libxiaox_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/xiaox_interfaces/srv/detail/dds_fastrtps/init_device__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/xiaox_interfaces/srv/detail/dds_fastrtps/read_joints__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/xiaox_interfaces/srv/detail/dds_fastrtps/write_joints__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/xiaox_interfaces/srv/detail/init_device__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/xiaox_interfaces/srv/detail/read_joints__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/xiaox_interfaces/srv/detail/write_joints__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/xiaox_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

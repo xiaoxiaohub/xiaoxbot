@@ -1,0 +1,191 @@
+[  2%] Built target xiaox_interfaces__cpp
+[ 12%] Built target xiaox_interfaces__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_xiaox_interfaces
+[ 23%] Built target xiaox_interfaces__rosidl_typesupport_cpp
+[ 34%] Built target xiaox_interfaces__rosidl_typesupport_introspection_cpp
+[ 44%] Built target xiaox_interfaces__rosidl_typesupport_c
+[ 55%] Built target xiaox_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 65%] Built target xiaox_interfaces__rosidl_typesupport_introspection_c
+[ 76%] Built target xiaox_interfaces__rosidl_typesupport_fastrtps_c
+[ 76%] Built target xiaox_interfaces
+[ 78%] Built target xiaox_interfaces__py
+[ 87%] Built target xiaox_interfaces__rosidl_generator_py
+[ 91%] Built target xiaox_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] Built target xiaox_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target xiaox_interfaces__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing xiaox_interfaces.egg-info/PKG-INFO
+writing dependency_links to xiaox_interfaces.egg-info/dependency_links.txt
+writing top-level names to xiaox_interfaces.egg-info/top_level.txt
+reading manifest file 'xiaox_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'xiaox_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_xiaox_interfaces_egg
+-- Install configuration: ""
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/ament_index/resource_index/rosidl_interfaces/xiaox_interfaces
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/init_device.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/write_joints.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/write_joints__struct.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/write_joints__functions.c
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/init_device__struct.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/read_joints__functions.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/init_device__functions.c
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/init_device__type_support.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/read_joints__functions.c
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/write_joints__type_support.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/read_joints__type_support.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/read_joints__struct.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/write_joints__functions.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/init_device__functions.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/read_joints.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/msg
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/environment/library_path.sh
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/environment/library_path.dsv
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib/libxiaox_interfaces__rosidl_generator_c.so
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/read_joints__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/write_joints__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/init_device__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/msg
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib/libxiaox_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/init_device__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/read_joints__type_support.c
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/init_device__type_support.c
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/read_joints__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/write_joints__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/write_joints__type_support.c
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/msg
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib/libxiaox_interfaces__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib/libxiaox_interfaces__rosidl_typesupport_c.so
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/read_joints__type_support.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/init_device__type_support.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/read_joints__builder.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/init_device__builder.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/write_joints__type_support.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/write_joints__struct.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/write_joints__builder.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/read_joints__traits.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/init_device__traits.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/write_joints__traits.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/init_device__struct.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/read_joints__struct.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/read_joints.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/write_joints.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/init_device.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/msg
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/dds_fastrtps
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/init_device__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/read_joints__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/write_joints__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/msg
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib/libxiaox_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/write_joints__type_support.cpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/read_joints__type_support.cpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/init_device__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/write_joints__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/read_joints__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/include/xiaox_interfaces/xiaox_interfaces/srv/detail/init_device__type_support.cpp
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib/libxiaox_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib/libxiaox_interfaces__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/environment/pythonpath.sh
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/environment/pythonpath.dsv
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces-0.1.0-py3.10.egg-info
+-- Installing: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces-0.1.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces-0.1.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/_xiaox_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/_xiaox_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/xiaox_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/libxiaox_interfaces__rosidl_generator_py.so
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/xiaox_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/srv
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/srv/_read_joints.py
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/srv/_write_joints_s.c
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/srv/_read_joints_s.c
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/srv/_init_device_s.c
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/srv/__init__.py
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/srv/_write_joints.py
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/srv/_init_device.py
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/__init__.py
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/xiaox_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/_xiaox_interfaces_s.ep.rosidl_typesupport_c.c
+Listing '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces'...
+Listing '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/srv'...
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/xiaox_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/xiaox_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/local/lib/python3.10/dist-packages/xiaox_interfaces/xiaox_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/lib/libxiaox_interfaces__rosidl_generator_py.so
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/srv/InitDevice.idl
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/srv/ReadJoints.idl
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/srv/WriteJoints.idl
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/srv/InitDevice.srv
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/srv/InitDevice_Request.msg
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/srv/InitDevice_Response.msg
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/srv/ReadJoints.srv
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/srv/ReadJoints_Request.msg
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/srv/ReadJoints_Response.msg
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/srv/WriteJoints.srv
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/srv/WriteJoints_Request.msg
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/srv/WriteJoints_Response.msg
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/ament_index/resource_index/package_run_dependencies/xiaox_interfaces
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/ament_index/resource_index/parent_prefix_path/xiaox_interfaces
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/environment/path.sh
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/environment/path.dsv
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/local_setup.bash
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/local_setup.sh
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/local_setup.zsh
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/local_setup.dsv
+-- Installing: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/package.dsv
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/ament_index/resource_index/packages/xiaox_interfaces
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/export_xiaox_interfaces__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/export_xiaox_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/export_xiaox_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/export_xiaox_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/xiaox_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/xiaox_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/xiaox_interfaces__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/xiaox_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/export_xiaox_interfaces__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/export_xiaox_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/export_xiaox_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/xiaox_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/xiaox_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/xiaox_interfaces__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/xiaox_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/export_xiaox_interfaces__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/export_xiaox_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/xiaox_interfacesConfig.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/cmake/xiaox_interfacesConfig-version.cmake
+-- Up-to-date: /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_interfaces/share/xiaox_interfaces/package.xml

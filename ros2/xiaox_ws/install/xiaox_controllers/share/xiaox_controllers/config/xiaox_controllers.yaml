@@ -1,0 +1,20 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 20  # Hz
+    hardware_components_initial_state:
+      inactive:
+        - XiaoxSystem
+
+    arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+
+arm_controller:
+  ros__parameters:
+    joints: [Joint1, Joint2, Joint3, Joint4, Joint5, Joint6]
+    command_interfaces: [position]
+    state_interfaces: [position, velocity]
+    allow_nonzero_velocity_at_trajectory_end: true

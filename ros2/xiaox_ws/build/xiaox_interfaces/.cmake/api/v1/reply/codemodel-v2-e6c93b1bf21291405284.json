@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7e3aa4f7faf4c8d44a01.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "xiaox_interfaces__py",
+					"jsonFile" : "directory-xiaox_interfaces__py-1d7d1909e7112bb4c711.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_interfaces/xiaox_interfaces__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "xiaox_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_xiaox_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_xiaox_interfaces_egg-b4a6a035f2519af5f5ab.json",
+					"name" : "ament_cmake_python_build_xiaox_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_xiaox_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_xiaox_interfaces-79653954555754fd6c46.json",
+					"name" : "ament_cmake_python_copy_xiaox_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-da03b1f0c306967a92aa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xiaox_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xiaox_interfaces-c1ce262b52411417206d.json",
+					"name" : "xiaox_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xiaox_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xiaox_interfaces__cpp-1a8bdb978e40f432f3e0.json",
+					"name" : "xiaox_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xiaox_interfaces__py::@d9e2383bf2ea98c071f4",
+					"jsonFile" : "target-xiaox_interfaces__py-28ff4e392c7328887c45.json",
+					"name" : "xiaox_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xiaox_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xiaox_interfaces__rosidl_generator_c-b1208b6291e199b495e3.json",
+					"name" : "xiaox_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xiaox_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xiaox_interfaces__rosidl_generator_py-f94e8035395a1087fb23.json",
+					"name" : "xiaox_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xiaox_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xiaox_interfaces__rosidl_typesupport_c-86b5a7c08524f9870655.json",
+					"name" : "xiaox_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xiaox_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xiaox_interfaces__rosidl_typesupport_c__pyext-daec72f2011cd608bd7c.json",
+					"name" : "xiaox_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xiaox_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xiaox_interfaces__rosidl_typesupport_cpp-ce8fe8807749ffc2fd44.json",
+					"name" : "xiaox_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xiaox_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xiaox_interfaces__rosidl_typesupport_fastrtps_c-398674983b45e6819e46.json",
+					"name" : "xiaox_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xiaox_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xiaox_interfaces__rosidl_typesupport_fastrtps_c__pyext-52d8e3d67a3b9c933313.json",
+					"name" : "xiaox_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xiaox_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xiaox_interfaces__rosidl_typesupport_fastrtps_cpp-3b9d16c41280f1ea23c2.json",
+					"name" : "xiaox_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xiaox_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xiaox_interfaces__rosidl_typesupport_introspection_c-48357f64c2cdac4b8c9f.json",
+					"name" : "xiaox_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xiaox_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xiaox_interfaces__rosidl_typesupport_introspection_c__pyext-110807667e05bc04bdca.json",
+					"name" : "xiaox_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xiaox_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xiaox_interfaces__rosidl_typesupport_introspection_cpp-317e964d25cc349b5abf.json",
+					"name" : "xiaox_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xiaox_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xiaox_interfaces_uninstall-fb7aa2f8a886634fd17b.json",
+					"name" : "xiaox_interfaces_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_interfaces",
+		"source" : "/home/jiehuang/xiaoxbot/ros2/xiaox_ws/src/xiaox_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

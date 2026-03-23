@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jiehuang/Documents/Custom-Robot/dummy/firmware/dummy-42motor-fw/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

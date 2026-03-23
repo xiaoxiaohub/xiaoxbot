@@ -1,0 +1,9 @@
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup/CMakeFiles/uninstall.dir
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup/CMakeFiles/xiaox_bringup_uninstall.dir
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup/CMakeFiles/test.dir
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup/CMakeFiles/edit_cache.dir
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup/CMakeFiles/rebuild_cache.dir
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup/CMakeFiles/list_install_components.dir
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup/CMakeFiles/install.dir
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup/CMakeFiles/install/local.dir
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_bringup/CMakeFiles/install/strip.dir

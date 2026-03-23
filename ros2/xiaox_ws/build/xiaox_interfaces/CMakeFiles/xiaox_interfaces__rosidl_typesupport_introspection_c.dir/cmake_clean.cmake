@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/xiaox_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xiaox_interfaces/srv/detail/init_device__type_support.c.o"
+  "CMakeFiles/xiaox_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xiaox_interfaces/srv/detail/init_device__type_support.c.o.d"
+  "CMakeFiles/xiaox_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xiaox_interfaces/srv/detail/read_joints__type_support.c.o"
+  "CMakeFiles/xiaox_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xiaox_interfaces/srv/detail/read_joints__type_support.c.o.d"
+  "CMakeFiles/xiaox_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xiaox_interfaces/srv/detail/write_joints__type_support.c.o"
+  "CMakeFiles/xiaox_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xiaox_interfaces/srv/detail/write_joints__type_support.c.o.d"
+  "libxiaox_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libxiaox_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/xiaox_interfaces/srv/detail/init_device__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/xiaox_interfaces/srv/detail/init_device__type_support.c"
+  "rosidl_typesupport_introspection_c/xiaox_interfaces/srv/detail/read_joints__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/xiaox_interfaces/srv/detail/read_joints__type_support.c"
+  "rosidl_typesupport_introspection_c/xiaox_interfaces/srv/detail/write_joints__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/xiaox_interfaces/srv/detail/write_joints__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/xiaox_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

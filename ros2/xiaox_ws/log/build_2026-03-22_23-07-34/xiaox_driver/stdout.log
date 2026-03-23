@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/xiaox_driver/xiaox_driver.egg-info
+writing ../../build/xiaox_driver/xiaox_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/xiaox_driver/xiaox_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/xiaox_driver/xiaox_driver.egg-info/entry_points.txt
+writing requirements to ../../build/xiaox_driver/xiaox_driver.egg-info/requires.txt
+writing top-level names to ../../build/xiaox_driver/xiaox_driver.egg-info/top_level.txt
+writing manifest file '../../build/xiaox_driver/xiaox_driver.egg-info/SOURCES.txt'
+reading manifest file '../../build/xiaox_driver/xiaox_driver.egg-info/SOURCES.txt'
+writing manifest file '../../build/xiaox_driver/xiaox_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_driver/build
+creating /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_driver/build/lib
+creating /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_driver/build/lib/xiaox_driver
+copying xiaox_driver/driver_node.py -> /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_driver/build/lib/xiaox_driver
+copying xiaox_driver/__init__.py -> /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_driver/build/lib/xiaox_driver
+running install
+running install_lib
+creating /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages/xiaox_driver
+copying /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_driver/build/lib/xiaox_driver/driver_node.py -> /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages/xiaox_driver
+copying /home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_driver/build/lib/xiaox_driver/__init__.py -> /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages/xiaox_driver
+byte-compiling /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages/xiaox_driver/driver_node.py to driver_node.cpython-310.pyc
+byte-compiling /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages/xiaox_driver/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/ament_index
+creating /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/ament_index/resource_index
+creating /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/ament_index/resource_index/packages
+copying resource/xiaox_driver -> /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver
+creating /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/launch
+copying launch/driver.launch.py -> /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/launch
+creating /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/config
+copying config/serial_port.yaml -> /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/config
+running install_egg_info
+Copying ../../build/xiaox_driver/xiaox_driver.egg-info to /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages/xiaox_driver-0.1.0-py3.10.egg-info
+running install_scripts
+Installing driver_node script to /home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/xiaox_driver
+writing list of installed files to '/home/jiehuang/xiaoxbot/ros2/xiaox_ws/build/xiaox_driver/install.log'

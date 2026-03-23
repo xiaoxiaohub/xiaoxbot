@@ -1,0 +1,16 @@
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages/xiaox_driver/driver_node.py
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages/xiaox_driver/__init__.py
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages/xiaox_driver/__pycache__/driver_node.cpython-310.pyc
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages/xiaox_driver/__pycache__/__init__.cpython-310.pyc
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/ament_index/resource_index/packages/xiaox_driver
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/package.xml
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/launch/driver.launch.py
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/share/xiaox_driver/config/serial_port.yaml
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages/xiaox_driver-0.1.0-py3.10.egg-info/SOURCES.txt
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages/xiaox_driver-0.1.0-py3.10.egg-info/dependency_links.txt
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages/xiaox_driver-0.1.0-py3.10.egg-info/PKG-INFO
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages/xiaox_driver-0.1.0-py3.10.egg-info/zip-safe
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages/xiaox_driver-0.1.0-py3.10.egg-info/entry_points.txt
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages/xiaox_driver-0.1.0-py3.10.egg-info/requires.txt
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/python3.10/site-packages/xiaox_driver-0.1.0-py3.10.egg-info/top_level.txt
+/home/jiehuang/xiaoxbot/ros2/xiaox_ws/install/xiaox_driver/lib/xiaox_driver/driver_node
